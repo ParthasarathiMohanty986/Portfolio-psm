@@ -18,6 +18,14 @@
         .project-card:hover { transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.1); }
         .skill-badge { background-color: var(--secondary-color)!important; margin: 0.3em; }
         .nav-link.active { color: var(--secondary-color)!important; font-weight: 600; }
+
+        
+        .circular-img {
+            width: 160px;  /* Adjust size as needed */
+            height: 160px; 
+            border-radius: 70%;
+            object-fit:fill;
+        }
     </style>
 </head>
 <body data-bs-spy="scroll" data-bs-target="#navbar-example">
@@ -52,7 +60,7 @@
     <section id="about" class="container py-5 mt-5">
         <div class="row align-items-center">
             <div class="col-md-4 text-center">
-                <img src="img.jpg" alt="Description" width="300">
+                <img src="img.png" alt="Circular Image" class="circular-img">
                 <div class="social-links mb-4">
                     
                     <a href="https://www.linkedin.com/in/partha-sarathi-mohanty-686486297/" class="btn btn-primary m-1" target="_blank">
