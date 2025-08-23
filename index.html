@@ -45,7 +45,7 @@
                     <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
                       <!-- Added CV Download Button in Navbar -->
                     <li class="nav-item ms-2">
-                        <a href="https://drive.google.com/uc?export=download&id=1MZGZwyQDxkUS9xLTZkF3rUWIxZtEBdCf" 
+                        <a href="https://drive.google.com/file/d/1rMquUrw65nbiPf1J8kpDPBVrKbpX9XpL/view?usp=sharing" 
                            class="btn btn-primary btn-sm" 
                            download="Partha_Sarathi_Mohanty_CV.pdf">
                             <i class="fas fa-download me-1"></i>Download CV
@@ -79,7 +79,7 @@
             <div class="col-md-8">
                 <h1 class="display-4 mb-3">Partha Sarathi Mohanty</h1>
                 <p class="lead">
-                    I'm a passionate <strong>Data Analyst</strong> and <strong>Backend Developer</strong> with expertise in 
+                    I'm a passionate <strong>Problem Solver</strong> and <strong>Developer</strong> with expertise in 
                     building scalable web applications and deriving actionable insights from complex datasets. 
                     As a <strong>Data Science enthusiast</strong> and engineer, I thrive on solving real-world problems 
                     through innovative technological solutions. My toolkit includes Python, Django, SQL, and 
@@ -101,14 +101,16 @@
                     <span class="badge skill-badge">C++</span>
                     <span class="badge skill-badge">SQL</span>
                     <span class="badge skill-badge">Django</span>
+                    <span class="badge skill-badge">DRF</span>
                     <span class="badge skill-badge">Power BI</span>
                     <span class="badge skill-badge">HTML/CSS</span>
                     <span class="badge skill-badge">JavaScript</span>
+                    <span class="badge skill-badge">React</span>
                     <span class="badge skill-badge">Pandas/Numpy</span>
                     <span class="badge skill-badge">Matplotlib/Seaborn</span>
-                    <span class="badge skill-badge">Bootstrap</span>
-                    <span class="badge skill-badge">DBMS</span>
-                    <span class="badge skill-badge">OOPS</span>
+                     <span class="badge skill-badge">GEN-AI</span>
+                    <span class="badge skill-badge">Bootstrap/Tailwind</span>
+               
                 </div>
             </div>
             <div class="col-md-6">
@@ -134,7 +136,7 @@
                     <div class="card-body">
                         <h5 class="card-title">IIIT Bhubaneswar</h5>
                         <p class="card-subtitle mb-2 text-muted">2022-Present</p>
-                        <p class="card-text">B.Tech in Information Technology<br>CGPA: 8.25 (upto 4th sem)</p>
+                        <p class="card-text">B.Tech in Information Technology<br>CGPA: 8.38 (upto 6th sem)</p>
                     </div>
                 </div>
             </div>
@@ -163,8 +165,11 @@
 <section id="projects" class="container py-5 bg-white">
     <h2 class="section-title mb-4">Projects</h2>
     
+    <!-- Web Development -->
     <h3 class="mb-3">Web Development</h3>
     <div class="row mb-5">
+
+        <!-- Study Buddy -->
         <div class="col-md-4 mb-4">
             <div class="card project-card h-100">
                 <div class="card-body">
@@ -180,6 +185,25 @@
                 </div>
             </div>
         </div>
+
+        <!-- Chat App -->
+        <div class="col-md-4 mb-4">
+            <div class="card project-card h-100">
+                <div class="card-body">
+                    <h5 class="card-title">Connectly - Real-Time Chat App</h5>
+                    <p class="card-text">Full-stack real-time chat application with public rooms, private messaging, and group chats.</p>
+                    <p><strong>Tech Stack:</strong> Django, HTMX, WebSockets, ASGI, PostgreSQL</p>
+                    <p>Implemented real-time messaging with Django Channels and WebSockets, supporting public chatrooms, private conversations, and group creation.</p>
+                    <p>Added secure authentication with Django Allauth, file sharing, online user tracking, and dynamic live updates.</p>
+                    <div class="mt-auto">
+                        <a href="https://github.com/ParthasarathiMohanty986/Realtime_chat" class="btn btn-sm btn-outline-primary" target="_blank">GitHub</a>
+                        <a href="https://realtime-chat-eg5b.onrender.com" class="btn btn-sm btn-outline-success" target="_blank">Live Demo</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tweet Master -->
         <div class="col-md-4 mb-4">
             <div class="card project-card h-100">
                 <div class="card-body">
@@ -189,28 +213,34 @@
                     <p>Developed an engaging social media platform featuring user authentication, profile management, and real-time post interactions.</p>
                     <p>Implemented a responsive UI and optimized database queries for enhanced performance.</p>
                     <div class="mt-auto">
-                        <a href="https://github.com/ParthasarathiMohanty986/Tweetmaster" class="btn btn-sm btn-outline-primary">GitHub</a>
+                        <a href="https://github.com/ParthasarathiMohanty986/Tweetmaster" class="btn btn-sm btn-outline-primary" target="_blank">GitHub</a>
                     </div>
                 </div>
             </div>
         </div>
+
+    </div>
+
+    <!-- GenAI Projects -->
+    <h3 class="mb-3">GenAI Projects</h3>
+    <div class="row mb-5">
         <div class="col-md-4 mb-4">
             <div class="card project-card h-100">
                 <div class="card-body">
-                    <h5 class="card-title">Sort Spectrum</h5>
-                    <p class="card-text">Interactive sorting algorithm visualizer with step-by-step execution and performance analytics.</p>
-                    <p><strong>Tech Stack:</strong> JavaScript, HTML, CSS</p>
-                    <p>Designed an educational tool to help users visualize sorting algorithms with animated transitions.</p>
-                    <p>Implemented real-time execution analysis, allowing users to compare different algorithms efficiently.</p>
+                    <h5 class="card-title">AI-Powered Newsletter Generator</h5>
+                    <p class="card-text">End-to-end AI-powered tool for generating dynamic newsletters using real-time news and AI summarization.</p>
+                    <p><strong>Tech Stack:</strong> Python, Streamlit, Gemini AI, Jinja2, Feedparser</p>
+                    <p>Built a modular Python app that fetches real-time news via RSS feeds, summarizes content using Gemini AI, and renders interactive newsletters in Streamlit.</p>
+                    <p>Implemented category-based filtering (Tech, Sports, Business) and interactive UI with support for multilingual summaries and dark mode.</p>
                     <div class="mt-auto">
-                        <a href="https://github.com/ParthasarathiMohanty986/SortSpectrum" class="btn btn-sm btn-outline-primary" target="_blank">GitHub</a>
-                        <a href="https://parthasarathimohanty986.github.io/SortSpectrum/" class="btn btn-sm btn-outline-success" target="_blank">Live Demo</a>
+                        <a href="https://github.com/ParthasarathiMohanty986/ai-newsletter-generator" class="btn btn-sm btn-outline-primary" target="_blank">GitHub</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
+    <!-- Data Analysis -->
     <h3 class="mb-3">Data Analysis</h3>
     <div class="row">
         <div class="col-md-4 mb-4">
@@ -222,21 +252,22 @@
                     <p>Developed an interactive dashboard showcasing key insights such as country-wise performance, gender-based statistics, and medal trends over time.</p>
                     <p>Utilized Python Pandas for data preprocessing and cleaning to ensure accuracy in visualization.</p>
                     <div class="mt-auto">
-                        <a href="https://github.com/ParthasarathiMohanty986/Paris-2024-Olympic-Insights-Hub" class="btn btn-sm btn-outline-primary">GitHub</a>
+                        <a href="https://github.com/ParthasarathiMohanty986/Paris-2024-Olympic-Insights-Hub" class="btn btn-sm btn-outline-primary" target="_blank">GitHub</a>
                     </div>
                 </div>
             </div>
         </div>
+        
         <div class="col-md-4 mb-4">
             <div class="card project-card h-100">
                 <div class="card-body">
                     <h5 class="card-title">AtliQ Mart’s Diwali & Sankranti Promotions</h5>
                     <p class="card-text">SQL-based analysis of promotional campaigns conducted by AtliQ Mart during Diwali 2023 and Sankranti 2024.</p>
-                    <p><strong>Tech Stack:</strong> SQL,Python,PowerBI</p>
+                    <p><strong>Tech Stack:</strong> SQL, Python, Power BI</p>
                     <p>Analyzed sales data to evaluate promotional effectiveness, identifying high-value discounted products and store performance.</p>
                     <p>Utilized SQL queries to extract meaningful insights on campaign success, revenue impact, and future strategy optimization.</p>
                     <div class="mt-auto">
-                        <a href="https://github.com/ParthasarathiMohanty986/Atliq-Mart-Festive-Sales-Insights" class="btn btn-sm btn-outline-primary">GitHub</a>
+                        <a href="https://github.com/ParthasarathiMohanty986/Atliq-Mart-Festive-Sales-Insights" class="btn btn-sm btn-outline-primary" target="_blank">GitHub</a>
                     </div>
                 </div>
             </div>
